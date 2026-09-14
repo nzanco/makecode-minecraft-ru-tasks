@@ -13,8 +13,12 @@ Learners never open this page: a world tells Code Builder which file to load.
 
 ## Links
 
-Worlds always point at a release tag, never at `main`:
+A world points Code Builder at a file in exactly Mojang's form: one `#`, no `https://`, no tag.
 
-`https://minecraft.makecode.com/?ipc=1&inGame=1#tutorial:https://github.com/NikolajSankovDev/makecode-minecraft-ru-tasks/official/no_coding#v0.1.0`
+`https://minecraft.makecode.com/?ipc=1&inGame=1#tutorial:github:NikolajSankovDev/makecode-minecraft-ru-tasks/official/no_coding`
 
-Never change or delete a tag: worlds already handed to learners point at it.
+The form `#tutorial:https://github.com/<repo>/<path>#<tag>` opens in a browser, but from inside the
+game Code Builder shows its home screen instead (tested 2026-09-14).
+
+Without a tag MakeCode serves the latest release. Changes on `main` reach worlds only after a new
+release, so test before tagging, and never change or delete an existing tag.
