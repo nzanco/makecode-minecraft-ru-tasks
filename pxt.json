@@ -1,0 +1,21 @@
+{
+    "name": "makecode-minecraft-ru-tasks",
+    "version": "0.1.0",
+    "description": "Russian Code Builder task files for Neuronka's Minecraft Education course.",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "official/no_coding.md",
+        "official/coding-fun/lesson-1/welcome.md",
+        "official/coding-fun/lesson-1/agent-move.md",
+        "official/coding-fun/lesson-1/agent-up.md",
+        "official/coding-fun/lesson-1/last-room.md"
+    ],
+    "supportedTargets": [
+        "minecraft"
+    ]
+}
