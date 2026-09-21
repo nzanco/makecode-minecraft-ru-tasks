@@ -9,6 +9,9 @@ Learners never open this page: a world tells Code Builder which file to load.
   official Minecraft Education worlds whose scripts are pointed here. The directives
   (`@codeStart`, `@codeStop`, `@flyoutOnly`) and the ghost code stay as in the original, because
   the world's scripts depend on them.
+- `de/official/<path>.md` — the same file in German, for a world copy whose scripts are pointed
+  at the `de/` path. Used by a cohort whose Minecraft runs in German; the block labels in the text
+  are the ones the German editor shows (``||agent:Agent, bewege dich||``).
 - `pxt.json` lists every file. `main.ts` stays empty.
 
 ## Links

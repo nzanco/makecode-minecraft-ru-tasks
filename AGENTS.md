@@ -28,6 +28,15 @@ retargeted here.
   references with the label the Russian editor shows (``||agent:агент: переместиться||``).
 - Add a `template` only where the workspace should be replaced when the tutorial opens.
 
+## Editing a `de/official/` file
+
+The German twin of `official/<path>.md`, for a world copy retargeted at the `de/` path. Same
+directives, same `ghost` and `template` code, byte for byte — only the prose differs. Write German
+for a child of 8–10: numbered steps, «du», gender-neutral wording, block references with the label
+the German editor shows (``||player:bei Chat-Befehl||``, ``||agent:Agent, bewege dich||``,
+``||agent:Agent, drehe dich nach||``, directions **nach oben** / **nach unten**). A change to a
+Russian file's steps is carried to its German twin in the same commit.
+
 ## Releasing
 
 1. Commit.
