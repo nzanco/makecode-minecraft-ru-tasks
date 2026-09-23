@@ -1,6 +1,6 @@
 {
     "name": "makecode-minecraft-ru-tasks",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Russian and German Code Builder task files for Neuronka's Minecraft Education course.",
     "dependencies": {
         "core": "*",
@@ -18,7 +18,13 @@
         "de/official/coding-fun/lesson-1/welcome.md",
         "de/official/coding-fun/lesson-1/agent-move.md",
         "de/official/coding-fun/lesson-1/agent-up.md",
-        "de/official/coding-fun/lesson-1/last-room.md"
+        "de/official/coding-fun/lesson-1/last-room.md",
+        "official/coding-fun/lesson-2/tracks.md",
+        "official/coding-fun/lesson-2/blocked-path.md",
+        "official/coding-fun/lesson-2/garbage.md",
+        "de/official/coding-fun/lesson-2/tracks.md",
+        "de/official/coding-fun/lesson-2/blocked-path.md",
+        "de/official/coding-fun/lesson-2/garbage.md"
     ],
     "supportedTargets": [
         "minecraft"
