@@ -9,7 +9,7 @@
 # Der Agent setzt und baut Blöcke ab
 
 ## Loch in der Mauer
-1. Jetzt ist der Agent auf dem zweiten Weg. In der Mauer vorne ist ein Loch zwischen zwei Goldblöcken.
+1. Jetzt ist der Agent auf dem zweiten Weg. In der Bretterwand vorne ist ein Loch zwischen zwei Goldblöcken. Die Steinziegel am Rand liegen im Boden.
 2. Baue das Programm **go**: Bring den Agenten bis vor das Loch und nimm ``||agent:Agent, platziere||`` nach vorne.
 3. Sag laut, in welches Feld das Brett kommt. Starte **go**.
 

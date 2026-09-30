@@ -8,8 +8,8 @@
 
 # Der Agent setzt und baut Blöcke ab
 
-## Der rote Block (zusätzlich)
-1. Auf dem dritten Weg ist in der Bretterwand ein Block rot.
+## Der rote Block
+1. Auf dem dritten Weg ist in der Bretterwand ein Block rot. Die Steinziegel am Rand liegen im Boden.
 2. Mach, dass statt des roten Blocks ein Brett steht: zuerst ``||agent:Agent, zerstöre||``, dann ``||agent:Agent, platziere||``.
 3. Sag laut, welches Feld sich zweimal ändert. Starte **go**.
 
