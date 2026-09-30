@@ -12,6 +12,9 @@ Learners never open this page: a world tells Code Builder which file to load.
 - `de/official/<path>.md` — the same file in German, for a world copy whose scripts are pointed
   at the `de/` path. Used by a cohort whose Minecraft runs in German; the block labels in the text
   are the ones the German editor shows (``||agent:Agent, bewege dich||``).
+- `neuronka/m01/l<N>/<task>.md` — Neuronka's own task files, for a Neuronka task world built on an
+  official map (lesson 3 onward). Written from scratch, not replacements of a Mojang file; the
+  world's own functions point Code Builder here. `de/neuronka/…` is the German twin.
 - `pxt.json` lists every file. `main.ts` stays empty.
 
 ## Links
