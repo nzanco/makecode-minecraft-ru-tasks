@@ -13,14 +13,14 @@
 5. Drück den Knopf am Start und starte **go** noch einmal.
 
 #### ~ tutorialhint
-Schau, an welcher Reihe der Agent abgebogen ist. Die Nische ist eine Reihe näher.
+Schau, wo der Leuchtstein steht und wo die Nische ist. Wie viele Felder fehlen dem Agenten?
 
 ```template
 agent.setItem(GLOWSTONE, 64, 1)
 player.onChat("go", function () {
-    agent.move(FORWARD, 3)
+    agent.move(FORWARD, 2)
     agent.turn(RIGHT_TURN)
-    agent.move(FORWARD, 3)
+    agent.move(FORWARD, 2)
     agent.place(FORWARD)
 })
 ```

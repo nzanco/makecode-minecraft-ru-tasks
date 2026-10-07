@@ -1,6 +1,6 @@
 {
     "name": "makecode-minecraft-ru-tasks",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "description": "Russian and German Code Builder task files for Neuronka's Minecraft Education course.",
     "dependencies": {
         "core": "*",

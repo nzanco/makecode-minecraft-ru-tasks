@@ -13,14 +13,14 @@
 5. Нажми кнопку у старта и запусти **go** снова.
 
 #### ~ tutorialhint
-Посмотри, у какого ряда Агент повернул. Ниша на ряд ближе.
+Посмотри, где встал светокамень и где ниша. На сколько клеток Агент не дошёл?
 
 ```template
 agent.setItem(GLOWSTONE, 64, 1)
 player.onChat("go", function () {
-    agent.move(FORWARD, 3)
+    agent.move(FORWARD, 2)
     agent.turn(RIGHT_TURN)
-    agent.move(FORWARD, 3)
+    agent.move(FORWARD, 2)
     agent.place(FORWARD)
 })
 ```
