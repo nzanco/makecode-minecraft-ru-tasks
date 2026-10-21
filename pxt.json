@@ -48,7 +48,15 @@
         "neuronka/m02/l01/station-2.md",
         "de/neuronka/m02/l01/station-2.md",
         "neuronka/m02/l01/station-3.md",
-        "de/neuronka/m02/l01/station-3.md"
+        "de/neuronka/m02/l01/station-3.md",
+        "neuronka/m02/l02/station-1.md",
+        "de/neuronka/m02/l02/station-1.md",
+        "neuronka/m02/l02/station-2.md",
+        "de/neuronka/m02/l02/station-2.md",
+        "neuronka/m02/l02/station-3.md",
+        "de/neuronka/m02/l02/station-3.md",
+        "neuronka/m02/l02/station-4.md",
+        "de/neuronka/m02/l02/station-4.md"
     ],
     "supportedTargets": [
         "minecraft"
