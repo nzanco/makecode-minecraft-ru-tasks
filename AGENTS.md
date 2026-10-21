@@ -39,10 +39,13 @@ Russian file's steps is carried to its German twin in the same commit.
 
 ## Releasing
 
-1. Commit.
-2. Tag the next version (`v0.x.y`) and create a GitHub release.
-3. Browser pre-check:
+1. Set `"version"` in `pxt.json` to the next version, without the `v` (`0.x.y`). MakeCode resolves
+   the release by it: a tag whose `pxt.json` still names the previous version is not picked up, and
+   pressing C opens nothing (v0.10.0, 2026-10-21, had to be re-released as v0.10.1).
+2. Commit.
+3. Tag the same version (`v0.x.y`) and create a GitHub release.
+4. Browser pre-check:
    `https://minecraft.makecode.com/?ipc=1&inGame=1&noRunOnX=1#tutorial:github:NikolajSankovDev/makecode-minecraft-ru-tasks/<path>`.
-4. Check in the game, starting from a fresh import of the world. The first C after an import is slow.
+5. Check in the game, starting from a fresh import of the world. The first C after an import is slow.
 
 Never change or delete an existing tag.
