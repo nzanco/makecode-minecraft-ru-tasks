@@ -1,6 +1,6 @@
 {
     "name": "makecode-minecraft-ru-tasks",
-    "version": "0.12.1",
+    "version": "0.13.0",
     "description": "Russian and German Code Builder task files for Neuronka's Minecraft Education course.",
     "dependencies": {
         "core": "*",
@@ -78,7 +78,17 @@
         "de/neuronka/m02/l04/station-3.md",
         "de/neuronka/m02/l04/station-4.md",
         "de/neuronka/m02/l04/teacher-a.md",
-        "de/neuronka/m02/l04/teacher-b.md"
+        "de/neuronka/m02/l04/teacher-b.md",
+        "neuronka/m03/l01/station-1.md",
+        "neuronka/m03/l01/station-2.md",
+        "neuronka/m03/l01/station-3.md",
+        "neuronka/m03/l01/station-4.md",
+        "neuronka/m03/l01/teacher.md",
+        "de/neuronka/m03/l01/station-1.md",
+        "de/neuronka/m03/l01/station-2.md",
+        "de/neuronka/m03/l01/station-3.md",
+        "de/neuronka/m03/l01/station-4.md",
+        "de/neuronka/m03/l01/teacher.md"
     ],
     "supportedTargets": [
         "minecraft"
